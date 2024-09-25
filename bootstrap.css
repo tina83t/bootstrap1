@@ -1,0 +1,66 @@
+h1 {
+    color: rgb(196, 43, 196);
+    text-align: center;
+    font-size: 2.5em;
+    font-family: arial, sans-serif;
+}
+.red-heading {
+    color: rgb(211, 5, 5);
+}
+h3 {
+    color: rgb(201, 212, 49);
+    text-align: left;
+    font-size: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #707a85;
+}
+button {
+    background-color: #007bff;
+    border: none;
+    text-decoration-color: beige;
+}
+button:hover {
+    background-color: #0056b3;
+}
+body {
+    background-color: #e9ecef;
+}
+nav {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+.top-bar {
+    background-color: #656f79;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.centered-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.card-title {
+    font-size: 1.2rem;
+}
+.card-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+
